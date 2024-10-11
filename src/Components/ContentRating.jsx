@@ -55,7 +55,7 @@ class ContentRating extends Component {
           </button>  
 
           <button className = 'total-ratings'>
-            Dislike ({this.state.totaRatings})
+            Total Rating ({this.state.totaRatings})
           </button>
 
         </div> 
