@@ -34,8 +34,7 @@
   }
   
   .like-button:hover,
-  .dislike-button:hover,
-  .total-ratings-button {
+  .dislike-button:hover {
     background-color: #2980b9;
   }
   
