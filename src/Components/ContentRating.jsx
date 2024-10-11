@@ -40,7 +40,11 @@ class ContentRating extends Component {
       <h1>Text Content Rating (Alejo tested)</h1>
       <h2>This page only uses JS code, no react hooks!!!</h2>
       <div classNamme = 'content-rating'>
-        <p> //Add text here!!! </p>
+        <p> //The text may be too log for adding. However, in this lab 
+        Evet-handler function definition (handleLike and handleDislike)
+    The update of the states is fined by setState() with a JS '=> ({})' function, having '{}' for dynamic updates and using key:pairs objects
+    The setState() introduces a local var called prevState (i.e. setState(prevState)) used for the logic operations in the '=> ({})' function
+           </p>
         <div className = 'rating-buttons'>
           <button className = 'like-button' onClick={this.state.handleLike}>
             Like ({this.state.likes})
