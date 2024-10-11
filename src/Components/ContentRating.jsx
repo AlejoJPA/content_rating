@@ -29,7 +29,7 @@ class ContentRating extends Component {
                   },
 
                   handleTotalRating : () => {
-                    this.setState((prevState) => ({
+                    this.setState(() => ({
                       totaRatings : likes + dislikes
                     }));
 
